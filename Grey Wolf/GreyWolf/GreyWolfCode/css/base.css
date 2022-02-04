@@ -1,0 +1,215 @@
+img
+{
+    max-width: 100%;
+}
+
+body
+{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    background-image: url(../img/Baggrundsbillede.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header 
+{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 86px;
+    background-color: #FFFFFF;
+    border-bottom: #707070;
+    border-width: 1px;
+    border-style: none none solid none;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*burger*/
+
+/* Dropdown Button */
+.dropbtn2
+{
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 43px;
+    border: none;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.burgerMenu
+{
+    position: relative;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content2
+{
+    display: none;
+    position: absolute;
+    background-image: url(../img/Baggrundsbillede.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 2px;
+    border: 1px solid #707070;
+    z-index: 1;
+    margin-left: -1px;
+    margin-top: 15px;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content2 a
+{
+    color: #84659B;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content2 a:hover
+{
+    background-color: #f1f1f1
+}
+
+#menu
+{
+    font-weight: bold;
+}
+
+#login,
+#kategorier,
+#omOs,
+#kontaktOs
+{
+    border-style: solid none none none;
+    border-width: 1px;
+    border-color: #707070;
+    width: 250px;
+    padding-left: 30px;
+}
+
+/*søge*/
+
+/* Dropdown Button */
+.dropbtn
+{
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 43px;
+    border: none;
+}
+  
+  /* The search field */
+#myInput
+{
+    box-sizing: border-box;
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+}
+  
+  /* The search field when it gets focus/clicked on */
+#myInput:focus
+{
+    outline: 3px solid #707070;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.soegeMenu
+{
+    position: relative;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 230px;
+    border: 1px solid #707070;
+    z-index: 2;
+    margin-top: 15px;
+}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show
+{
+    display:block;
+}
+
+.favoritMix
+{
+    color: #5C337B;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 43px;
+    border: none;
+}
+
+.cartMenu
+{
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 43px;
+    border: none;
+}
+
+header img
+{
+    height: 86px;
+}
+
+.fa-arrow-left
+{
+    position: absolute;
+    top: 98px;
+    left: 15px;
+    width: 29px;
+    height: 29px;
+    color: #000000;
+    font-style: normal;
+}
+
+footer article{
+    text-shadow: 4px 4px 12px #000000;
+    color: rgba(132, 101, 155, 0.5);
+    margin-top: 250px;
+}
+
+footer .map
+{
+    height: 132px;
+    width: 162px;
+    margin: 0px 28px 68px 28px;
+    border-radius: 39px;
+    float: left;
+    margin-top: 80px;
+}
+.some
+{
+    margin-right: 38px;
+    float: right;
+    margin-top: 5px;
+}
+.some a
+{
+    text-decoration: none;
+}
+.sociale
+{
+    height: 50px;
+    width: 50px;
+}

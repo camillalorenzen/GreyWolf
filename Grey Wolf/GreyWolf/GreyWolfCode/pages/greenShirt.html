@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/base.css" type="text/css">
+    <link rel="stylesheet" href="../css/stylesheet.css" type="text/css">
+    <script src="../javascript/script.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/a32f29bc43.js" crossorigin="anonymous"></script>
+    <title>Mørkegrøn T-shirt</title>
+</head>
+<body>
+    <header id="head">
+        <nav>
+            <div class="burgerMenu">
+                <button onclick="dropDown2()" class="dropbtn2"><i class="fas fa-bars"></i></button>
+                <div id="myDropdown2" class="dropdown-content2">
+                  <a id="menu">Menu</a>
+                  <a id="login">Login <i class="fas fa-user"></i></a>
+                  <a id="kategorier" href="#Kategorier">Kategorier</a>
+                  <a id="omOs" href="aboutUs.html">Om os</a>
+                  <a id="kontaktOs">Kontakt os</a>
+                </div>
+              </div>
+                <div class="soegeMenu">
+                    <button onclick="dropDown()" class="dropbtn"><i class="fas fa-search"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput">
+                </div>
+              </div>
+            <a href="../index.html">
+                <img src="../img/Logo.png" alt="Grey Wolf logo">
+            </a>
+            <div>
+                <button class="favoritMix"><i class="fas fa-heart"></i></button>
+            </div>
+            <div>
+                <button class="cartMenu"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <a href="shirts.html"><i class="fas fa-arrow-left"></i></a>
+    </div>
+    <section class="greenshirt">
+        <article>
+            <div>
+                <img class="grøn-trøje" src="../img/MoerkegroenTshirt.png" alt="mørkegrøn-t-shirt" onclick="enlargeImg()" id="img1">
+            </div>
+            <button onclick="resetImg()" id="shirtBtn">X</button>
+            <script src="../javascript/script.js" type="text/javascript"></script>
+        <h3>
+        Mørkegrøn-t-shirt
+        </h3>
+
+        <p class="pris">
+        350,-
+        </p>
+        <i class="far fa-heart"></i>
+    
+        <img class="mærker" src="../img/Froe.png" alt="Rainforest Alliance logo">
+        <img class="mærker"src="../img/Skjorte.png" alt="G.O.T.S. logo">
+        <img class="mærker"src="../img/Svane.png" alt="Svanemærket">
+
+        <p class="beskrivelse"> 
+    T-shirt af økologisk bomuld<br> i en flot mørkegrøn farve,<br> med V-formet åbning og knapper     
+        </p>
+        </article>
+    </section>
+
+    <section class="størrelse-tilføj"> 
+        <article>
+        <form>
+            <select name="Størrelse">
+                <option value="placeholder" disabled selected hidden>Størrelse</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+            </select>
+            <button type="button">
+                Tilføj
+            </button>
+          </form>
+          </article>
+    </section>
+
+
+    <section class="F-R-D"> 
+        <p>
+            <i class="fas fa-truck"></i> Fragt
+        </p>
+               
+        <p>
+            <i class="fas fa-undo"></i> Returnering
+        </p>
+              
+        <p>
+            <i class="far fa-share-square"></i> Del
+        </p>
+    </section>
+    <footer>
+        <img class="map" src="../img/Kort.jpg" alt="Kort">
+        <article>
+            <h5>
+                Kontakt os:
+            </h5>
+            <p>
+                info@greywolf.dk
+            </p>
+            <p>
+                Universitetsparken 1<br> 6000 Kolding<br> Danmark
+            </p>
+        </article>
+        <div class="some">
+            <a href="https://www.facebook.com/IBAErhvervsakademiKolding">
+                <img class="sociale"src="../img/f.png" alt="Facebook logo">
+            </a>
+            <a href="https://www.instagram.com/ibakolding">
+                <img class="sociale"src="../img/insta.png" alt="Instagram logo">
+            </a>
+            <a href="https://twitter.com/IBAKolding">
+                <img class="sociale"src="../img/twitter.png" alt="Twitter logo">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
